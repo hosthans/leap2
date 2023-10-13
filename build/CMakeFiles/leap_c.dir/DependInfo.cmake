@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/bot/coding/hand_detection/code/leap2/main.c" "CMakeFiles/leap_c.dir/main.c.o" "gcc" "CMakeFiles/leap_c.dir/main.c.o.d"
   "/home/bot/coding/hand_detection/code/leap2/src/connection.c" "CMakeFiles/leap_c.dir/src/connection.c.o" "gcc" "CMakeFiles/leap_c.dir/src/connection.c.o.d"
   "/home/bot/coding/hand_detection/code/leap2/src/fileOperations.c" "CMakeFiles/leap_c.dir/src/fileOperations.c.o" "gcc" "CMakeFiles/leap_c.dir/src/fileOperations.c.o.d"
+  "/home/bot/coding/hand_detection/code/leap2/src/timeStamping.c" "CMakeFiles/leap_c.dir/src/timeStamping.c.o" "gcc" "CMakeFiles/leap_c.dir/src/timeStamping.c.o.d"
   )
 
 # Targets to which this target links.

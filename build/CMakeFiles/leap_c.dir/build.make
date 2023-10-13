@@ -111,11 +111,26 @@ CMakeFiles/leap_c.dir/src/fileOperations.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leap_c.dir/src/fileOperations.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/coding/hand_detection/code/leap2/src/fileOperations.c -o CMakeFiles/leap_c.dir/src/fileOperations.c.s
 
+CMakeFiles/leap_c.dir/src/timeStamping.c.o: CMakeFiles/leap_c.dir/flags.make
+CMakeFiles/leap_c.dir/src/timeStamping.c.o: ../src/timeStamping.c
+CMakeFiles/leap_c.dir/src/timeStamping.c.o: CMakeFiles/leap_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/leap_c.dir/src/timeStamping.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/leap_c.dir/src/timeStamping.c.o -MF CMakeFiles/leap_c.dir/src/timeStamping.c.o.d -o CMakeFiles/leap_c.dir/src/timeStamping.c.o -c /home/bot/coding/hand_detection/code/leap2/src/timeStamping.c
+
+CMakeFiles/leap_c.dir/src/timeStamping.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leap_c.dir/src/timeStamping.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bot/coding/hand_detection/code/leap2/src/timeStamping.c > CMakeFiles/leap_c.dir/src/timeStamping.c.i
+
+CMakeFiles/leap_c.dir/src/timeStamping.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leap_c.dir/src/timeStamping.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/coding/hand_detection/code/leap2/src/timeStamping.c -o CMakeFiles/leap_c.dir/src/timeStamping.c.s
+
 # Object files for target leap_c
 leap_c_OBJECTS = \
 "CMakeFiles/leap_c.dir/main.c.o" \
 "CMakeFiles/leap_c.dir/src/connection.c.o" \
-"CMakeFiles/leap_c.dir/src/fileOperations.c.o"
+"CMakeFiles/leap_c.dir/src/fileOperations.c.o" \
+"CMakeFiles/leap_c.dir/src/timeStamping.c.o"
 
 # External object files for target leap_c
 leap_c_EXTERNAL_OBJECTS =
@@ -123,10 +138,11 @@ leap_c_EXTERNAL_OBJECTS =
 leap_c: CMakeFiles/leap_c.dir/main.c.o
 leap_c: CMakeFiles/leap_c.dir/src/connection.c.o
 leap_c: CMakeFiles/leap_c.dir/src/fileOperations.c.o
+leap_c: CMakeFiles/leap_c.dir/src/timeStamping.c.o
 leap_c: CMakeFiles/leap_c.dir/build.make
 leap_c: /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5
 leap_c: CMakeFiles/leap_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable leap_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable leap_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leap_c.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5 /home/bot/coding/hand_detection/code/leap2/build
 

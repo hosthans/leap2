@@ -10,9 +10,10 @@
 #include <signal.h>
 #include "headers/connection.h"
 #include "headers/fileOperations.h"
+#include "headers/timeStamping.h"
 
 FILE *file = NULL;
-const char HEADER[] = "frame_id\thand_count\tl_hand_p(x,y,z)\tr_hand_p(x,y,z)\n";
+const char HEADER[] = "time_stamp\thand_count\tl_hand_p(x,y,z)\tr_hand_p(x,y,z)\n";
 
 void handleInterrupt(int signum) {
 	if (file != NULL) {
@@ -58,11 +59,14 @@ int main() {
 			if (file != NULL) {
 				char logMessage[1000];
 				if (frame->nHands >= 2) {
+					char timeStamp[50];
+					getCurrentTimeStamp(timeStamp);
+
 					LEAP_HAND *first_hand = &frame->pHands[0];
 					LEAP_HAND *second_hand = &frame->pHands[1];
 
-					sprintf(logMessage, "%lli\t%i\t(%f,%f,%f)\t(%f,%f,%f)\n",
-							(long long int) frame->tracking_frame_id,
+					sprintf(logMessage, "%s\t%i\t(%f,%f,%f)\t(%f,%f,%f)\n",
+							timeStamp,
 							frame->nHands, first_hand->palm.position.x,
 							first_hand->palm.position.y,
 							first_hand->palm.position.z,
@@ -71,9 +75,12 @@ int main() {
 							second_hand->palm.position.z);
 					writeLog(file, logMessage);
 				} else if (frame->nHands == 1) {
+					char timeStamp[50];
+					getCurrentTimeStamp(timeStamp);
+
 					LEAP_HAND *first_hand = &frame->pHands[0];
-					sprintf(logMessage, "%lli\t%i\t(%f,%f,%f)\t(%s,%s,%s)\n",
-							(long long int) frame->tracking_frame_id,
+					sprintf(logMessage, "%s\t%i\t(%f,%f,%f)\t(%s,%s,%s)\n",
+							timeStamp,
 							frame->nHands, first_hand->palm.position.x,
 							first_hand->palm.position.y,
 							first_hand->palm.position.z, "x", "x", "x");

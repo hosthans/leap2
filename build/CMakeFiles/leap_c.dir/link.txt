@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/leap_c.dir/main.c.o CMakeFiles/leap_c.dir/src/connection.c.o CMakeFiles/leap_c.dir/src/fileOperations.c.o -o leap_c  -Wl,-rpath,/usr/lib/ultraleap-hand-tracking-service /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5 -latomic 
+/usr/bin/cc CMakeFiles/leap_c.dir/main.c.o CMakeFiles/leap_c.dir/src/connection.c.o CMakeFiles/leap_c.dir/src/fileOperations.c.o CMakeFiles/leap_c.dir/src/timeStamping.c.o -o leap_c  -Wl,-rpath,/usr/lib/ultraleap-hand-tracking-service /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5 -latomic 

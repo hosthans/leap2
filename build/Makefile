@@ -201,6 +201,30 @@ src/fileOperations.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/fileOperations.c.s
 .PHONY : src/fileOperations.c.s
 
+src/timeStamping.o: src/timeStamping.c.o
+.PHONY : src/timeStamping.o
+
+# target to build an object file
+src/timeStamping.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/timeStamping.c.o
+.PHONY : src/timeStamping.c.o
+
+src/timeStamping.i: src/timeStamping.c.i
+.PHONY : src/timeStamping.i
+
+# target to preprocess a source file
+src/timeStamping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/timeStamping.c.i
+.PHONY : src/timeStamping.c.i
+
+src/timeStamping.s: src/timeStamping.c.s
+.PHONY : src/timeStamping.s
+
+# target to generate assembly for a file
+src/timeStamping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/timeStamping.c.s
+.PHONY : src/timeStamping.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/fileOperations.o"
 	@echo "... src/fileOperations.i"
 	@echo "... src/fileOperations.s"
+	@echo "... src/timeStamping.o"
+	@echo "... src/timeStamping.i"
+	@echo "... src/timeStamping.s"
 .PHONY : help
 
 
