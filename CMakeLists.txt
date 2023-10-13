@@ -25,7 +25,7 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/headers")
 
 add_executable(
 	leap_c
-	"main.c" src/connection.c)
+	"main.c" src/connection.c src/fileOperations.c)
 
 target_link_libraries(
 	leap_c

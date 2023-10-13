@@ -177,6 +177,30 @@ src/connection.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/connection.c.s
 .PHONY : src/connection.c.s
 
+src/fileOperations.o: src/fileOperations.c.o
+.PHONY : src/fileOperations.o
+
+# target to build an object file
+src/fileOperations.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/fileOperations.c.o
+.PHONY : src/fileOperations.c.o
+
+src/fileOperations.i: src/fileOperations.c.i
+.PHONY : src/fileOperations.i
+
+# target to preprocess a source file
+src/fileOperations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/fileOperations.c.i
+.PHONY : src/fileOperations.c.i
+
+src/fileOperations.s: src/fileOperations.c.s
+.PHONY : src/fileOperations.s
+
+# target to generate assembly for a file
+src/fileOperations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leap_c.dir/build.make CMakeFiles/leap_c.dir/src/fileOperations.c.s
+.PHONY : src/fileOperations.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/connection.o"
 	@echo "... src/connection.i"
 	@echo "... src/connection.s"
+	@echo "... src/fileOperations.o"
+	@echo "... src/fileOperations.i"
+	@echo "... src/fileOperations.s"
 .PHONY : help
 
 
