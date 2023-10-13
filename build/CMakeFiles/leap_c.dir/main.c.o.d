@@ -1,4 +1,5 @@
-CMakeFiles/leap_c.dir/main.c.o: /home/bot/eclipse/workplace/leap_c/main.c \
+CMakeFiles/leap_c.dir/main.c.o: \
+ /home/bot/coding/hand_detection/code/leap2/main.c \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -53,7 +54,7 @@ CMakeFiles/leap_c.dir/main.c.o: /home/bot/eclipse/workplace/leap_c/main.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/bot/eclipse/workplace/leap_c/headers/connection.h \
+ /home/bot/coding/hand_detection/code/leap2/headers/connection.h \
  /usr/include/LeapC.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

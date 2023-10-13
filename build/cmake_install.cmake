@@ -1,4 +1,4 @@
-# Install script for directory: /home/bot/eclipse/workplace/leap_c
+# Install script for directory: /home/bot/coding/hand_detection/code/leap2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bot/eclipse/workplace/leap_c/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bot/coding/hand_detection/code/leap2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

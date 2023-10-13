@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bot/eclipse/workplace/leap_c/headers
+C_INCLUDES = -I/home/bot/coding/hand_detection/code/leap2/headers
 
 C_FLAGS = 
 

@@ -1,7 +1,7 @@
 CMakeFiles/leap_c.dir/src/connection.c.o: \
- /home/bot/eclipse/workplace/leap_c/src/connection.c \
+ /home/bot/coding/hand_detection/code/leap2/src/connection.c \
  /usr/include/stdc-predef.h \
- /home/bot/eclipse/workplace/leap_c/src/../headers/connection.h \
+ /home/bot/coding/hand_detection/code/leap2/src/../headers/connection.h \
  /usr/include/LeapC.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

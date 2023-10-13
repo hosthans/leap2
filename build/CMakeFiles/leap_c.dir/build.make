@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bot/eclipse/workplace/leap_c
+CMAKE_SOURCE_DIR = /home/bot/coding/hand_detection/code/leap2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bot/eclipse/workplace/leap_c/build
+CMAKE_BINARY_DIR = /home/bot/coding/hand_detection/code/leap2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leap_c.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/leap_c.dir/flags.make
 CMakeFiles/leap_c.dir/main.c.o: CMakeFiles/leap_c.dir/flags.make
 CMakeFiles/leap_c.dir/main.c.o: ../main.c
 CMakeFiles/leap_c.dir/main.c.o: CMakeFiles/leap_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bot/eclipse/workplace/leap_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leap_c.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/leap_c.dir/main.c.o -MF CMakeFiles/leap_c.dir/main.c.o.d -o CMakeFiles/leap_c.dir/main.c.o -c /home/bot/eclipse/workplace/leap_c/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leap_c.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/leap_c.dir/main.c.o -MF CMakeFiles/leap_c.dir/main.c.o.d -o CMakeFiles/leap_c.dir/main.c.o -c /home/bot/coding/hand_detection/code/leap2/main.c
 
 CMakeFiles/leap_c.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leap_c.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bot/eclipse/workplace/leap_c/main.c > CMakeFiles/leap_c.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bot/coding/hand_detection/code/leap2/main.c > CMakeFiles/leap_c.dir/main.c.i
 
 CMakeFiles/leap_c.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leap_c.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/eclipse/workplace/leap_c/main.c -o CMakeFiles/leap_c.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/coding/hand_detection/code/leap2/main.c -o CMakeFiles/leap_c.dir/main.c.s
 
 CMakeFiles/leap_c.dir/src/connection.c.o: CMakeFiles/leap_c.dir/flags.make
 CMakeFiles/leap_c.dir/src/connection.c.o: ../src/connection.c
 CMakeFiles/leap_c.dir/src/connection.c.o: CMakeFiles/leap_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bot/eclipse/workplace/leap_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leap_c.dir/src/connection.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/leap_c.dir/src/connection.c.o -MF CMakeFiles/leap_c.dir/src/connection.c.o.d -o CMakeFiles/leap_c.dir/src/connection.c.o -c /home/bot/eclipse/workplace/leap_c/src/connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leap_c.dir/src/connection.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/leap_c.dir/src/connection.c.o -MF CMakeFiles/leap_c.dir/src/connection.c.o.d -o CMakeFiles/leap_c.dir/src/connection.c.o -c /home/bot/coding/hand_detection/code/leap2/src/connection.c
 
 CMakeFiles/leap_c.dir/src/connection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leap_c.dir/src/connection.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bot/eclipse/workplace/leap_c/src/connection.c > CMakeFiles/leap_c.dir/src/connection.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bot/coding/hand_detection/code/leap2/src/connection.c > CMakeFiles/leap_c.dir/src/connection.c.i
 
 CMakeFiles/leap_c.dir/src/connection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leap_c.dir/src/connection.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/eclipse/workplace/leap_c/src/connection.c -o CMakeFiles/leap_c.dir/src/connection.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bot/coding/hand_detection/code/leap2/src/connection.c -o CMakeFiles/leap_c.dir/src/connection.c.s
 
 # Object files for target leap_c
 leap_c_OBJECTS = \
@@ -110,9 +110,9 @@ leap_c: CMakeFiles/leap_c.dir/src/connection.c.o
 leap_c: CMakeFiles/leap_c.dir/build.make
 leap_c: /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5
 leap_c: CMakeFiles/leap_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bot/eclipse/workplace/leap_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leap_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bot/coding/hand_detection/code/leap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leap_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leap_c.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E copy /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5 /home/bot/eclipse/workplace/leap_c/build
+	/usr/bin/cmake -E copy /usr/lib/ultraleap-hand-tracking-service/libLeapC.so.5 /home/bot/coding/hand_detection/code/leap2/build
 
 # Rule to build all files generated by this target.
 CMakeFiles/leap_c.dir/build: leap_c
@@ -123,6 +123,6 @@ CMakeFiles/leap_c.dir/clean:
 .PHONY : CMakeFiles/leap_c.dir/clean
 
 CMakeFiles/leap_c.dir/depend:
-	cd /home/bot/eclipse/workplace/leap_c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bot/eclipse/workplace/leap_c /home/bot/eclipse/workplace/leap_c /home/bot/eclipse/workplace/leap_c/build /home/bot/eclipse/workplace/leap_c/build /home/bot/eclipse/workplace/leap_c/build/CMakeFiles/leap_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bot/coding/hand_detection/code/leap2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bot/coding/hand_detection/code/leap2 /home/bot/coding/hand_detection/code/leap2 /home/bot/coding/hand_detection/code/leap2/build /home/bot/coding/hand_detection/code/leap2/build /home/bot/coding/hand_detection/code/leap2/build/CMakeFiles/leap_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leap_c.dir/depend
 
